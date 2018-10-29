@@ -2,7 +2,7 @@ Chip-8 Emulator
 =======
 ![Image](captures/c1.png "icon")
 ## About
-Chip-8 emulator written in C++14. High compatibility with games found online.
+Chip-8 emulator written in C++14. High compatibility with games found online.  
 This emulator was written in 4 days following various specifications online.
 
 ## Building
