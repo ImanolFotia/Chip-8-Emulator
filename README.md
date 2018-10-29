@@ -2,14 +2,16 @@ Chip-8 Emulator
 =======
 ![Image](captures/c1.png "icon")
 ## About
-Chip-8 emulator/virtual machine written in C++14
+Chip-8 emulator written in C++14. High compatibility with games found online.
+This emulator was written in 4 days following various specifications online.
 
 ## Building
 
 Dependencies
 ---
 
-* SDL2 (Simple Direct Media Library) is used for rendering and keyboard events
+* SDL2 (Simple Direct Media Library) is used for rendering and keyboard events  
+Under linux install SDL by `sudo apt-get install libsdl2-dev`
 
 Compiling
 ---
