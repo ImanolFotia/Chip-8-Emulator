@@ -6,7 +6,7 @@ EXE = Chip8
 ifeq "$(OS)" "Windows_NT"
 EXE = bin/Chip8.exe
 	LDFLAGS = -lmingw32 -lSDL2main -lSDL2 
-	CXXFLAGS= -g --std=c++14 -Wall -pedantic
+	CXXFLAGS= -g --std=c++14 -Wall -pedantic -static -static-libgcc -static-libstdc++
 	#Specify the location of SDL2 in the following field
 	LIB_SDL2 = ./deps/SDL2/lib
 	INC_SDL2 = ./deps/SDL2/include
@@ -15,7 +15,7 @@ endif
 # OS X
 ifeq "$(OSTYPE)" "darwin"
 	LDFLAGS = -framework Carbon -framework OpenGL -framework GLUT
-	CXXFLAGS= -g -std=c++14 -Wall -pedantic
+	CXXFLAGS= -g -std=c++14 -Wall -pedantic -static -static-libgcc -static-libstdc++
 endif
 
 OBJ_DIR = ./obj
