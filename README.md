@@ -30,7 +30,7 @@ Or under windows `mingw32-make all` if MinGW is installed
 **Maze**
 ![Image](captures/c4.png "Maze")  
 
-## TODO:
+## TODO: 
 
 * Implement remaining SCHIP-48 instructions  
 * Graphical user interface
